@@ -1,3 +1,8 @@
+/*
+Question:
+Given an array arr[] of size N and an integer K. Check if K is present in the array or not.
+*/
+
 import java.util.Scanner;
 
 public class LinearSearch {
