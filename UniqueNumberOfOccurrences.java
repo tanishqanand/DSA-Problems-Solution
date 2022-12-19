@@ -15,11 +15,6 @@ public class UniqueNumberOfOccurrences {
         HashSet<Integer> set = new HashSet<>(map.values());
         return set.size() == map.size();
     }
-    private static void printArray(int[] arr) {
-        for(int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
-        }
-    }
     private static int[] takeInput() {
         Scanner scanner = new Scanner(System.in);
         int size = scanner.nextInt();
