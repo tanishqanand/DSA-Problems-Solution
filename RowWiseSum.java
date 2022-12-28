@@ -1,3 +1,7 @@
+/*
+Question:
+For a given two-dimensional integer array/list of size (N x M), find and print the sum of each of the row elements.
+*/
 
 import java.util.*;
 
