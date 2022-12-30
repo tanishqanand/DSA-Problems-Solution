@@ -6,9 +6,6 @@ Given two numbers A and B. The task is to find out their LCM and GCD.
 import java.util.*;
 
 public class LCMAndGCD {
-    public static int lcm(int n1, int n2) {
-
-    }
     public static int gcd(int n1, int n2) {
         int quo = Math.max(n1, n2);
         int div = Math.min(n1, n2);
@@ -32,11 +29,11 @@ public class LCMAndGCD {
 
         int num1 = scanner.nextInt();
         int num2 = scanner.nextInt();
-
-        int lcm = lcm(num1, num2);
+        
         int gcd = gcd(num1, num2);
+        int lcm = (num1 * num2)/gcd;
 
-        System.out.println(lcm);
-        System.out.println(gcd);
+        System.out.println("GCD is: " + gcd);
+        System.out.println("LCM is: " + lcm);;
     }
 }
